@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4E88981BFFAFB6004793CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E88971BFFAFB6004793CE /* MapKit.framework */; };
 		AA7833BE1BFE7B97006F5702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833BD1BFE7B97006F5702 /* main.m */; };
 		AA7833C11BFE7B97006F5702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833C01BFE7B97006F5702 /* AppDelegate.m */; };
 		AA7833C41BFE7B97006F5702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833C31BFE7B97006F5702 /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA4E88971BFFAFB6004793CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA7833B91BFE7B97006F5702 /* iLocAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7833BD1BFE7B97006F5702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA7833BF1BFE7B97006F5702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4E88981BFFAFB6004793CE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 		AA7833B01BFE7B96006F5702 = {
 			isa = PBXGroup;
 			children = (
+				AA4E88971BFFAFB6004793CE /* MapKit.framework */,
 				AA7833F81BFE7D16006F5702 /* Model */,
 				AA7833BB1BFE7B97006F5702 /* iLocAlert */,
 				AA7833D81BFE7B98006F5702 /* iLocAlertTests */,
@@ -242,7 +246,7 @@
 								enabled = 0;
 							};
 							com.apple.Maps.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.iCloud = {
 								enabled = 0;
