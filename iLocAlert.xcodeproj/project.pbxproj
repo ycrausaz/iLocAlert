@@ -233,7 +233,7 @@
 						DevelopmentTeam = VM329NQ2GG;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.GameCenter = {
 								enabled = 0;
