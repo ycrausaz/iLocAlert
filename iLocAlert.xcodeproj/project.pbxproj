@@ -44,8 +44,8 @@
 		AA7833BD1BFE7B97006F5702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA7833BF1BFE7B97006F5702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA7833C01BFE7B97006F5702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA7833C21BFE7B97006F5702 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA7833C31BFE7B97006F5702 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA7833C21BFE7B97006F5702 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iLocAlert/ViewController.h; sourceTree = "<group>"; };
+		AA7833C31BFE7B97006F5702 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iLocAlert/ViewController.m; sourceTree = "<group>"; };
 		AA7833C61BFE7B97006F5702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7833C91BFE7B97006F5702 /* iLocAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLocAlert.xcdatamodel; sourceTree = "<group>"; };
 		AA7833CB1BFE7B97006F5702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,11 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA65742F1C0123A300EEF40D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA7833C21BFE7B97006F5702 /* ViewController.h */,
+				AA7833C31BFE7B97006F5702 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		AA7833B01BFE7B96006F5702 = {
 			isa = PBXGroup;
 			children = (
 				AA4E88971BFFAFB6004793CE /* MapKit.framework */,
 				AA7833F81BFE7D16006F5702 /* Model */,
+				AA65742F1C0123A300EEF40D /* ViewControllers */,
 				AA7833BB1BFE7B97006F5702 /* iLocAlert */,
 				AA7833D81BFE7B98006F5702 /* iLocAlertTests */,
 				AA7833E31BFE7B98006F5702 /* iLocAlertUITests */,
@@ -118,8 +128,6 @@
 				AA7833FB1BFE7E80006F5702 /* iLocAlert.entitlements */,
 				AA7833BF1BFE7B97006F5702 /* AppDelegate.h */,
 				AA7833C01BFE7B97006F5702 /* AppDelegate.m */,
-				AA7833C21BFE7B97006F5702 /* ViewController.h */,
-				AA7833C31BFE7B97006F5702 /* ViewController.m */,
 				AA7833C51BFE7B97006F5702 /* Main.storyboard */,
 				AA7833CB1BFE7B97006F5702 /* Assets.xcassets */,
 				AA7833CD1BFE7B97006F5702 /* LaunchScreen.storyboard */,
