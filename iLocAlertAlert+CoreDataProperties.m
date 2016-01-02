@@ -2,8 +2,8 @@
 //  iLocAlertAlert+CoreDataProperties.m
 //  iLocAlert
 //
-//  Created by Yann Crausaz on 19/11/15.
-//  Copyright © 2015 Yann Crausaz. All rights reserved.
+//  Created by Yann Crausaz on 03/01/16.
+//  Copyright © 2016 Yann Crausaz. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
 //  to delete and recreate this implementation file for your updated model.
@@ -24,5 +24,7 @@
 @dynamic alert_sms;
 @dynamic alert_way_entering;
 @dynamic alert_way_exiting;
+@dynamic alert_creation_date;
+@dynamic alert_last_modification_date;
 
 @end
