@@ -12,13 +12,13 @@
 		AA7833C11BFE7B97006F5702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833C01BFE7B97006F5702 /* AppDelegate.m */; };
 		AA7833C41BFE7B97006F5702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833C31BFE7B97006F5702 /* ViewController.m */; };
 		AA7833C71BFE7B97006F5702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7833C51BFE7B97006F5702 /* Main.storyboard */; };
-		AA7833CA1BFE7B97006F5702 /* iLocAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7833C81BFE7B97006F5702 /* iLocAlert.xcdatamodeld */; };
 		AA7833CC1BFE7B97006F5702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7833CB1BFE7B97006F5702 /* Assets.xcassets */; };
 		AA7833CF1BFE7B97006F5702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7833CD1BFE7B97006F5702 /* LaunchScreen.storyboard */; };
 		AA7833DA1BFE7B98006F5702 /* iLocAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833D91BFE7B98006F5702 /* iLocAlertTests.m */; };
 		AA7833E51BFE7B98006F5702 /* iLocAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833E41BFE7B98006F5702 /* iLocAlertUITests.m */; };
 		AA7833F61BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833F31BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m */; };
 		AA7833F71BFE7D10006F5702 /* iLocAlertAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833F51BFE7D10006F5702 /* iLocAlertAlert.m */; };
+		AA84519C1C387AA100CF7CAE /* iLocAlertPreload.json in Resources */ = {isa = PBXBuildFile; fileRef = AA84519B1C387AA100CF7CAE /* iLocAlertPreload.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		AA7833C21BFE7B97006F5702 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iLocAlert/ViewController.h; sourceTree = "<group>"; };
 		AA7833C31BFE7B97006F5702 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iLocAlert/ViewController.m; sourceTree = "<group>"; };
 		AA7833C61BFE7B97006F5702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA7833C91BFE7B97006F5702 /* iLocAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLocAlert.xcdatamodel; sourceTree = "<group>"; };
 		AA7833CB1BFE7B97006F5702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7833CE1BFE7B97006F5702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7833D01BFE7B97006F5702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		AA7833F41BFE7D10006F5702 /* iLocAlertAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLocAlertAlert.h; sourceTree = "<group>"; };
 		AA7833F51BFE7D10006F5702 /* iLocAlertAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLocAlertAlert.m; sourceTree = "<group>"; };
 		AA7833FB1BFE7E80006F5702 /* iLocAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iLocAlert.entitlements; sourceTree = "<group>"; };
+		AA84519B1C387AA100CF7CAE /* iLocAlertPreload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iLocAlertPreload.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,6 @@
 				AA7833CB1BFE7B97006F5702 /* Assets.xcassets */,
 				AA7833CD1BFE7B97006F5702 /* LaunchScreen.storyboard */,
 				AA7833D01BFE7B97006F5702 /* Info.plist */,
-				AA7833C81BFE7B97006F5702 /* iLocAlert.xcdatamodeld */,
 				AA7833BC1BFE7B97006F5702 /* Supporting Files */,
 			);
 			path = iLocAlert;
@@ -142,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7833BD1BFE7B97006F5702 /* main.m */,
+				AA84519B1C387AA100CF7CAE /* iLocAlertPreload.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,6 +299,7 @@
 				AA7833CF1BFE7B97006F5702 /* LaunchScreen.storyboard in Resources */,
 				AA7833CC1BFE7B97006F5702 /* Assets.xcassets in Resources */,
 				AA7833C71BFE7B97006F5702 /* Main.storyboard in Resources */,
+				AA84519C1C387AA100CF7CAE /* iLocAlertPreload.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +327,6 @@
 				AA7833F61BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m in Sources */,
 				AA7833C41BFE7B97006F5702 /* ViewController.m in Sources */,
 				AA7833F71BFE7D10006F5702 /* iLocAlertAlert.m in Sources */,
-				AA7833CA1BFE7B97006F5702 /* iLocAlert.xcdatamodeld in Sources */,
 				AA7833C11BFE7B97006F5702 /* AppDelegate.m in Sources */,
 				AA7833BE1BFE7B97006F5702 /* main.m in Sources */,
 			);
@@ -583,19 +583,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AA7833C81BFE7B97006F5702 /* iLocAlert.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AA7833C91BFE7B97006F5702 /* iLocAlert.xcdatamodel */,
-			);
-			currentVersion = AA7833C91BFE7B97006F5702 /* iLocAlert.xcdatamodel */;
-			path = iLocAlert.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AA7833B11BFE7B96006F5702 /* Project object */;
 }
