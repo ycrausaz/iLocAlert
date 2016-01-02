@@ -1,0 +1,6 @@
+[
+{"alert_address":"Route du Chasseral 6, Estavayer-le-Lac", "alert_email":true, "alert_id":1, "alert_latitude":46.2235123, "alert_longitude":4.24325, "alert_name":"Ma première alerte", "alert_notification":true, "alert_radius":1.5, "alert_sms":false, "alert_way_entering":false, "alert_way_existing":true},
+{"alert_address":"Route de la Ferme 14, Estavayer-le-Lac", "alert_email":true, "alert_id":2, "alert_latitude":46.123, "alert_longitude":4.8724325, "alert_name":"Ma seconde alerte", "alert_notification":true, "alert_radius":2.5, "alert_sms":true, "alert_way_entering":false, "alert_way_existing":true},
+{"alert_address":"Rue des Granges 5, Estavayer-le-Lac", "alert_email":true, "alert_id":3, "alert_latitude":46.88123, "alert_longitude":4.48724325, "alert_name":"Ma troisième alerte", "alert_notification":true, "alert_radius":4.5, "alert_sms":true, "alert_way_entering":false, "alert_way_existing":true}
+]
+
