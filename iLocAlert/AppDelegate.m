@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "iLocAlertAlert.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    iLocAlertAlert *ila = [NSEntityDescription insertNewObjectForEntityForName:@"iLocAlert" inManagedObjectContext:[self managedObjectContext]];
+    
+    ila.alert_id = 1;
+    ila.alert_name = @"test01";
+    ila.alert_address = @"Route du Chasseral 6, Estavayer-le-Lac";
+    
     return YES;
 }
 

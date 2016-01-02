@@ -19,6 +19,8 @@
 		AA7833F61BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833F31BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m */; };
 		AA7833F71BFE7D10006F5702 /* iLocAlertAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7833F51BFE7D10006F5702 /* iLocAlertAlert.m */; };
 		AA84519C1C387AA100CF7CAE /* iLocAlertPreload.json in Resources */ = {isa = PBXBuildFile; fileRef = AA84519B1C387AA100CF7CAE /* iLocAlertPreload.json */; };
+		AA84519F1C3887F200CF7CAE /* iLocAlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA84519E1C3887F200CF7CAE /* iLocAlertTableViewController.m */; };
+		AA8451A21C38938A00CF7CAE /* iLocAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8451A01C38938A00CF7CAE /* iLocAlert.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		AA7833F51BFE7D10006F5702 /* iLocAlertAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLocAlertAlert.m; sourceTree = "<group>"; };
 		AA7833FB1BFE7E80006F5702 /* iLocAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iLocAlert.entitlements; sourceTree = "<group>"; };
 		AA84519B1C387AA100CF7CAE /* iLocAlertPreload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iLocAlertPreload.json; sourceTree = "<group>"; };
+		AA84519D1C3887F200CF7CAE /* iLocAlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLocAlertTableViewController.h; sourceTree = "<group>"; };
+		AA84519E1C3887F200CF7CAE /* iLocAlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLocAlertTableViewController.m; sourceTree = "<group>"; };
+		AA8451A11C38938A00CF7CAE /* iLocAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLocAlert.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,8 @@
 			children = (
 				AA7833C21BFE7B97006F5702 /* ViewController.h */,
 				AA7833C31BFE7B97006F5702 /* ViewController.m */,
+				AA84519D1C3887F200CF7CAE /* iLocAlertTableViewController.h */,
+				AA84519E1C3887F200CF7CAE /* iLocAlertTableViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -167,6 +174,7 @@
 		AA7833F81BFE7D16006F5702 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA8451A01C38938A00CF7CAE /* iLocAlert.xcdatamodeld */,
 				AA7833F21BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.h */,
 				AA7833F31BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m */,
 				AA7833F41BFE7D10006F5702 /* iLocAlertAlert.h */,
@@ -325,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7833F61BFE7D10006F5702 /* iLocAlertAlert+CoreDataProperties.m in Sources */,
+				AA8451A21C38938A00CF7CAE /* iLocAlert.xcdatamodeld in Sources */,
+				AA84519F1C3887F200CF7CAE /* iLocAlertTableViewController.m in Sources */,
 				AA7833C41BFE7B97006F5702 /* ViewController.m in Sources */,
 				AA7833F71BFE7D10006F5702 /* iLocAlertAlert.m in Sources */,
 				AA7833C11BFE7B97006F5702 /* AppDelegate.m in Sources */,
@@ -583,6 +593,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA8451A01C38938A00CF7CAE /* iLocAlert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA8451A11C38938A00CF7CAE /* iLocAlert.xcdatamodel */,
+			);
+			currentVersion = AA8451A11C38938A00CF7CAE /* iLocAlert.xcdatamodel */;
+			name = iLocAlert.xcdatamodeld;
+			path = iLocAlert/iLocAlert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA7833B11BFE7B96006F5702 /* Project object */;
 }
