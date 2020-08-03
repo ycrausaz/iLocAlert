@@ -4,7 +4,7 @@
         <attribute name="alert_address" optional="YES" attributeType="String"/>
         <attribute name="alert_creation_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="alert_email" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
-        <attribute name="alert_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alert_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="alert_last_modification_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="alert_latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO"/>
         <attribute name="alert_longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO"/>

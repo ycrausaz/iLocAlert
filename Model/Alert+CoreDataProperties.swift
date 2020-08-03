@@ -17,10 +17,10 @@ extension Alert {
         return NSFetchRequest<Alert>(entityName: "Alert")
     }
 
-    @NSManaged public var alert_id: Int32
     @NSManaged public var alert_address: String?
     @NSManaged public var alert_creation_date: Date?
     @NSManaged public var alert_email: NSNumber?
+    @NSManaged public var alert_id: UUID?
     @NSManaged public var alert_last_modification_date: Date?
     @NSManaged public var alert_latitude: NSNumber?
     @NSManaged public var alert_longitude: NSNumber?
