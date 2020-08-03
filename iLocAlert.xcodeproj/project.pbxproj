@@ -18,7 +18,6 @@
 		AA1A97E824D768C000B98FC0 /* iLocAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A97E724D768C000B98FC0 /* iLocAlertUITests.swift */; };
 		AA4DFA0A24D83CAD000FED32 /* Alert+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DFA0824D83CAD000FED32 /* Alert+CoreDataClass.swift */; };
 		AA4DFA0B24D83CAD000FED32 /* Alert+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DFA0924D83CAD000FED32 /* Alert+CoreDataProperties.swift */; };
-		AA4DFA0E24D8848A000FED32 /* Alert+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DFA0D24D8848A000FED32 /* Alert+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		AA1A97E924D768C000B98FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4DFA0824D83CAD000FED32 /* Alert+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AA4DFA0924D83CAD000FED32 /* Alert+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AA4DFA0D24D8848A000FED32 /* Alert+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Alert+CoreDataProperties.swift"; path = "Model/Alert+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 		AA1A97B624D768BE00B98FC0 = {
 			isa = PBXGroup;
 			children = (
-				AA4DFA0D24D8848A000FED32 /* Alert+CoreDataProperties.swift */,
 				AA4DFA0C24D83D1B000FED32 /* Model */,
 				AA1A97C124D768BE00B98FC0 /* iLocAlert */,
 				AA1A97DB24D768BF00B98FC0 /* iLocAlertTests */,
@@ -289,7 +286,6 @@
 			files = (
 				AA4DFA0B24D83CAD000FED32 /* Alert+CoreDataProperties.swift in Sources */,
 				AA1A97C324D768BE00B98FC0 /* AppDelegate.swift in Sources */,
-				AA4DFA0E24D8848A000FED32 /* Alert+CoreDataProperties.swift in Sources */,
 				AA1A97C824D768BE00B98FC0 /* iLocAlert.xcdatamodeld in Sources */,
 				AA1A97CA24D768BE00B98FC0 /* ContentView.swift in Sources */,
 				AA1A97C524D768BE00B98FC0 /* SceneDelegate.swift in Sources */,
