@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA64421A24D8D1F100FE11AA /* Alert+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64421824D8D1F100FE11AA /* Alert+CoreDataClass.swift */; };
+		AA64421B24D8D1F100FE11AA /* Alert+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */; };
 		AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD55E24D8CC34008F9168 /* AppDelegate.swift */; };
 		AADDD56124D8CC34008F9168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD56024D8CC34008F9168 /* SceneDelegate.swift */; };
 		AADDD56424D8CC34008F9168 /* iLocAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AADDD56224D8CC34008F9168 /* iLocAlert.xcdatamodeld */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA64421824D8D1F100FE11AA /* Alert+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AADDD55B24D8CC34008F9168 /* iLocAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADDD55E24D8CC34008F9168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADDD56024D8CC34008F9168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA64421324D8CE5600FE11AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA64421824D8D1F100FE11AA /* Alert+CoreDataClass.swift */,
+				AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AADDD55224D8CC34008F9168 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 		AADDD55D24D8CC34008F9168 /* iLocAlert */ = {
 			isa = PBXGroup;
 			children = (
+				AA64421324D8CE5600FE11AA /* Model */,
 				AADDD55E24D8CC34008F9168 /* AppDelegate.swift */,
 				AADDD56024D8CC34008F9168 /* SceneDelegate.swift */,
 				AADDD56524D8CC34008F9168 /* ContentView.swift */,
@@ -270,10 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA64421B24D8D1F100FE11AA /* Alert+CoreDataProperties.swift in Sources */,
 				AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */,
 				AADDD56424D8CC34008F9168 /* iLocAlert.xcdatamodeld in Sources */,
 				AADDD56624D8CC34008F9168 /* ContentView.swift in Sources */,
 				AADDD56124D8CC34008F9168 /* SceneDelegate.swift in Sources */,
+				AA64421A24D8D1F100FE11AA /* Alert+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
