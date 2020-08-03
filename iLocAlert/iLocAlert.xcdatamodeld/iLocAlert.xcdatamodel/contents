@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Alert" representedClassName=".Alert" syncable="YES" codeGenerationType="class">
+        <attribute name="alert_address" optional="YES" attributeType="String"/>
+        <attribute name="alert_creation_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="alert_email" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="alert_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alert_last_modification_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="alert_latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO"/>
+        <attribute name="alert_longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO"/>
+        <attribute name="alert_name" optional="YES" attributeType="String"/>
+        <attribute name="alert_notification" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="alert_radius" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="alert_sms" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="alert_way_entering" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="alert_way_exiting" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Alert" positionX="-63" positionY="-18" width="128" height="238"/>
+    </elements>
 </model>
