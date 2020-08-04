@@ -15,15 +15,14 @@
         <attribute name="alert_way_entering" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
         <attribute name="alert_way_exiting" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
     </entity>
-    <entity name="AlertLog" representedClassName="AlertLog" syncable="YES">
+    <entity name="AlertLog" representedClassName="AlertLog" syncable="YES" codeGenerationType="class">
         <attribute name="alert_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="alertlog_datetime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="alertlog_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="alertlog_way_entering" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="alertlog_way_exiting" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="attribute" optional="YES"/>
     </entity>
     <elements>
         <element name="Alert" positionX="-63" positionY="-18" width="128" height="238"/>
-        <element name="AlertLog" positionX="-63" positionY="81" width="128" height="118"/>
+        <element name="AlertLog" positionX="-63" positionY="81" width="128" height="103"/>
     </elements>
 </model>
