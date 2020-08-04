@@ -14,16 +14,16 @@ struct ContentView: View {
             List {
                 Text("List of alerts")
             }
-                .navigationBarTitle("Alerts (" + "3" + ")")
-                .navigationBarItems(trailing: Button(action: {print("Open alert")}, label: {
-                    Image(systemName: "plus.circle")
+            .navigationBarTitle("Alerts (" + "3" + ")")
+            .navigationBarItems(trailing: Button(action: {
+                    print("Open alert")}, label: {
+                        Image(systemName: "plus.circle")
                         .resizable()
                         .frame(width: 32, height:32, alignment: .center)
                     }
                 )
             )
         }
-        
     }
 }
 
