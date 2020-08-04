@@ -18,6 +18,8 @@
 		AADDD56E24D8CC36008F9168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADDD56C24D8CC36008F9168 /* LaunchScreen.storyboard */; };
 		AADDD57924D8CC36008F9168 /* iLocAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD57824D8CC36008F9168 /* iLocAlertTests.swift */; };
 		AADDD58424D8CC36008F9168 /* iLocAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD58324D8CC36008F9168 /* iLocAlertUITests.swift */; };
+		AAEF140024D9D17400475832 /* AlertLog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF13FE24D9D17400475832 /* AlertLog+CoreDataClass.swift */; };
+		AAEF140124D9D17400475832 /* AlertLog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF13FF24D9D17400475832 /* AlertLog+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		AADDD57F24D8CC36008F9168 /* iLocAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLocAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADDD58324D8CC36008F9168 /* iLocAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLocAlertUITests.swift; sourceTree = "<group>"; };
 		AADDD58524D8CC36008F9168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEF13FE24D9D17400475832 /* AlertLog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertLog+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AAEF13FF24D9D17400475832 /* AlertLog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertLog+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		AA64421324D8CE5600FE11AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAEF13FE24D9D17400475832 /* AlertLog+CoreDataClass.swift */,
+				AAEF13FF24D9D17400475832 /* AlertLog+CoreDataProperties.swift */,
 				AA64421824D8D1F100FE11AA /* Alert+CoreDataClass.swift */,
 				AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */,
 			);
@@ -285,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA64421B24D8D1F100FE11AA /* Alert+CoreDataProperties.swift in Sources */,
+				AAEF140024D9D17400475832 /* AlertLog+CoreDataClass.swift in Sources */,
 				AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */,
+				AAEF140124D9D17400475832 /* AlertLog+CoreDataProperties.swift in Sources */,
 				AADDD56424D8CC34008F9168 /* iLocAlert.xcdatamodeld in Sources */,
 				AADDD56624D8CC34008F9168 /* ContentView.swift in Sources */,
 				AADDD56124D8CC34008F9168 /* SceneDelegate.swift in Sources */,
@@ -456,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iLocAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = VM329NQ2GG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iLocAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iLocAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = VM329NQ2GG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iLocAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
