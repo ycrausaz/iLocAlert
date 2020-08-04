@@ -10,12 +10,15 @@ import SwiftUI
 
 struct AlertDetail: View {
     var body: some View {
+        VStack{
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
 struct AlertDetail_Previews: PreviewProvider {
     static var previews: some View {
-        AlertDetail()
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        return AlertDetail().environment(\.managedObjectContext, context)
     }
 }
