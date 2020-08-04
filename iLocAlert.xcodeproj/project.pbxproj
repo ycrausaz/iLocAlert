@@ -20,6 +20,7 @@
 		AADDD58424D8CC36008F9168 /* iLocAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD58324D8CC36008F9168 /* iLocAlertUITests.swift */; };
 		AAEF140024D9D17400475832 /* AlertLog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF13FE24D9D17400475832 /* AlertLog+CoreDataClass.swift */; };
 		AAEF140124D9D17400475832 /* AlertLog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF13FF24D9D17400475832 /* AlertLog+CoreDataProperties.swift */; };
+		AAEF140324D9ED6E00475832 /* AlertDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF140224D9ED6E00475832 /* AlertDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AADDD58524D8CC36008F9168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAEF13FE24D9D17400475832 /* AlertLog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertLog+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		AAEF13FF24D9D17400475832 /* AlertLog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertLog+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AAEF140224D9ED6E00475832 /* AlertDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				AADDD55E24D8CC34008F9168 /* AppDelegate.swift */,
 				AADDD56024D8CC34008F9168 /* SceneDelegate.swift */,
 				AADDD56524D8CC34008F9168 /* ContentView.swift */,
+				AAEF140224D9ED6E00475832 /* AlertDetail.swift */,
 				AADDD56724D8CC36008F9168 /* Assets.xcassets */,
 				AADDD56C24D8CC36008F9168 /* LaunchScreen.storyboard */,
 				AADDD56F24D8CC36008F9168 /* Info.plist */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA64421B24D8D1F100FE11AA /* Alert+CoreDataProperties.swift in Sources */,
+				AAEF140324D9ED6E00475832 /* AlertDetail.swift in Sources */,
 				AAEF140024D9D17400475832 /* AlertLog+CoreDataClass.swift in Sources */,
 				AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */,
 				AAEF140124D9D17400475832 /* AlertLog+CoreDataProperties.swift in Sources */,
