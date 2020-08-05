@@ -10,8 +10,12 @@ import SwiftUI
 
 struct AlertDetail: View {
     var body: some View {
-        VStack{
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack {
+                Text("Map setting")
+                Text("Alarm setting")
+            }
+            .navigationBarTitle("Name of the alert")
         }
     }
 }
