@@ -2,7 +2,7 @@
 //  AlertLog+CoreDataProperties.swift
 //  iLocAlert
 //
-//  Created by Yann Crausaz on 04.08.20.
+//  Created by Yann Crausaz on 06.08.20.
 //  Copyright © 2020 Yann Crausaz. All rights reserved.
 //
 //
@@ -17,9 +17,9 @@ extension AlertLog {
         return NSFetchRequest<AlertLog>(entityName: "AlertLog")
     }
 
-    @NSManaged public var alertlog_id: UUID?
     @NSManaged public var alert_id: UUID?
     @NSManaged public var alertlog_datetime: Date?
+    @NSManaged public var alertlog_id: UUID?
     @NSManaged public var alertlog_way_entering: Bool
     @NSManaged public var alertlog_way_exiting: Bool
 

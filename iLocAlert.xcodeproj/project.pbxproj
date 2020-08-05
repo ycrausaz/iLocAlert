@@ -11,6 +11,7 @@
 		AA64421B24D8D1F100FE11AA /* Alert+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */; };
 		AA8FC3DA24DB0BDD0008D2EE /* AlertDetailMapSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FC3D924DB0BDD0008D2EE /* AlertDetailMapSetting.swift */; };
 		AA8FC3DC24DB0C150008D2EE /* AlertDetailAlarmSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FC3DB24DB0C150008D2EE /* AlertDetailAlarmSetting.swift */; };
+		AA8FC3E024DB597F0008D2EE /* Preloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FC3DF24DB597F0008D2EE /* Preloader.swift */; };
 		AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD55E24D8CC34008F9168 /* AppDelegate.swift */; };
 		AADDD56124D8CC34008F9168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDD56024D8CC34008F9168 /* SceneDelegate.swift */; };
 		AADDD56424D8CC34008F9168 /* iLocAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AADDD56224D8CC34008F9168 /* iLocAlert.xcdatamodeld */; };
@@ -47,6 +48,7 @@
 		AA64421924D8D1F100FE11AA /* Alert+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AA8FC3D924DB0BDD0008D2EE /* AlertDetailMapSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDetailMapSetting.swift; sourceTree = "<group>"; };
 		AA8FC3DB24DB0C150008D2EE /* AlertDetailAlarmSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDetailAlarmSetting.swift; sourceTree = "<group>"; };
+		AA8FC3DF24DB597F0008D2EE /* Preloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preloader.swift; sourceTree = "<group>"; };
 		AADDD55B24D8CC34008F9168 /* iLocAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADDD55E24D8CC34008F9168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADDD56024D8CC34008F9168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				AADDD56C24D8CC36008F9168 /* LaunchScreen.storyboard */,
 				AADDD56F24D8CC36008F9168 /* Info.plist */,
 				AADDD56224D8CC34008F9168 /* iLocAlert.xcdatamodeld */,
+				AA8FC3DF24DB597F0008D2EE /* Preloader.swift */,
 				AADDD56924D8CC36008F9168 /* Preview Content */,
 			);
 			path = iLocAlert;
@@ -303,6 +306,7 @@
 				AAEF140524D9F82C00475832 /* AlertDetail.swift in Sources */,
 				AA8FC3DC24DB0C150008D2EE /* AlertDetailAlarmSetting.swift in Sources */,
 				AAEF140024D9D17400475832 /* AlertLog+CoreDataClass.swift in Sources */,
+				AA8FC3E024DB597F0008D2EE /* Preloader.swift in Sources */,
 				AADDD55F24D8CC34008F9168 /* AppDelegate.swift in Sources */,
 				AAEF140124D9D17400475832 /* AlertLog+CoreDataProperties.swift in Sources */,
 				AA8FC3DA24DB0BDD0008D2EE /* AlertDetailMapSetting.swift in Sources */,

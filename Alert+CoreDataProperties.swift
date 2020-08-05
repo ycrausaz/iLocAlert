@@ -2,7 +2,7 @@
 //  Alert+CoreDataProperties.swift
 //  iLocAlert
 //
-//  Created by Yann Crausaz on 04.08.20.
+//  Created by Yann Crausaz on 06.08.20.
 //  Copyright © 2020 Yann Crausaz. All rights reserved.
 //
 //
